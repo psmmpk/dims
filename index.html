@@ -18,7 +18,7 @@ $( document ).ready(function() {
   $('#hantar').click(function(){
 			$.ajax({
 			type: 'POST',
-			url: 'daftar.php',
+			url: 'http://www.ppsppa.gov.my/mobapp/daftar.php',
 			data: $("#form1").serialize(),
 			success: function(data){
 				$('#ubah').html(data);
